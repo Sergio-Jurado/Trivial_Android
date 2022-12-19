@@ -45,15 +45,15 @@ public class Preguntas extends AppCompatActivity {
             respuesta[i] = -1;
         }
         pregunta_actual = 0;
-        showQuestion();
+        mostar();
 
         btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                checkAnswer();
+                checkRespuestas();
                 if (pregunta_actual < total_preguntas.length-1) {
                     pregunta_actual++;
-                    showQuestion();
+                    mostar();
                 } else {
                     int correctas = 0, incorrectas = 0;
                     for (boolean b : correcta) {
@@ -72,16 +72,16 @@ public class Preguntas extends AppCompatActivity {
         btn_prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                checkAnswer();
+                checkRespuestas();
                 if (pregunta_actual > 0) {
                     pregunta_actual--;
-                    showQuestion();
+                    mostar();
                 }
             }
         });
     }
 
-    private void checkAnswer() {
+    private void checkRespuestas() {
         int id = group.getCheckedRadioButtonId();
         int ans = -1;
         for (int i = 0; i < ids_respuestas.length; i++) {
@@ -93,7 +93,7 @@ public class Preguntas extends AppCompatActivity {
         respuesta[pregunta_actual] = ans;
     }
 
-    private void showQuestion() {
+    private void mostar() {
         String q = total_preguntas[pregunta_actual];
         String[] parts = q.split(";");
 

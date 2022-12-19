@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         usuario = findViewById(R.id.field_usuario);
-        
+
 
         jugar = findViewById(R.id.btn_jugar);
         jugar.setOnClickListener((v) -> {
