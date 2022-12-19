@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Trivial_Android</string>
+    <array name="preguntas_faciles">
+        <item>¿Quién ha sido el campeón del mundial de Qatar?;Francia;*Argentina;Marruecos;Croacia</item>
+        <item>¿Cuál es el océano más grande del mundo?;*Pacífico;Atlántico;Índico;Atlántico</item>
+        <item>¿Cuál es el país más grande del mundo?;China;India;*Rusia;Polonia</item>
+        <item>¿Cuál es el país más poblado de la Tierra?;Rusia;*China;Japón;Korea</item>
+        <item>¿Cuántas válvulas tiene un corazón humano?;1;2;3;*4</item>
+        <item>¿Qué día es la fiesta de la hispanidad?;15 Octubre;*12 Octubre;14 Octubre;17 Octubre</item>
+        <item>¿Quién inventó la bombilla?;Tesla;Lorca;Steve Jobs;*Thomas Edison</item>
+        <item>¿Cuál es el músculo más fuerte del cuerpo humano?;*Masetero;Glúteo;Trapecio;Bíceps</item>
+        <item>¿Qué planeta se encuentra más cercano al Sol?;Luna;Plutón;Tierra;*Mercurio</item>
+        <item>¿De qué lengua proviene el español?;*Latín;Griego;Árabe;Japonés</item>
+        <item>¿Cuánto vale el númer pi?;*3,14;3,6;3,1513;3,16</item>
+        <item>¿Cuándo ganó España el Mundial?;*2010;2008;2014;2012</item>
+        <item>¿Cuántos años tiene un lustro?;10;100;*5;20</item>
+        <item>¿Dónde se celebró los juegos olímpicos de 1992?;*España;Francia;China;Londres</item>
+        <item>¿Has contestado a todas las preguntas?;*Si;No;voy a mirar;Ni idea</item>
+
+    </array>
+    <array name="preguntas_intermedias">
+        <item>Cuál es la capital de Argentina;*Buenos aires;Madrid;Barcelona;Segovia</item>
+        <item>¿A qué mes pertenece el signo de Sagitario?;Enero;Julio;Agosto;*Diciembre</item>
+        <item>¿Cuántos kilómetros son una milla?;1,8;1,3;*1,6;1,4</item>
+        <item>¿En qué año nació Salvador Dalí?;1920;1902;*1904;1923</item>
+        <item>¿En qué país se usó la primera bomba atómica?;China;Korea;India;*Japón</item>
+        <item>¿Dónde se encuentra Port Aventura?;Madrid;Teruel;Lugo;*Tarragona</item>
+        <item>¿Dónde fueron los juegos olímipicos de 2012?;Servia;Japón;*Londres;España</item>
+        <item>¿Quién es el streamer español más visto este año?;xokas;*ibai;Rubius;TheGrefg</item>
+    </array>
+    <array name="preguntas_dificiles">
+        <item>¿Cuántos elementos tiene la tabla periódica?;120;*118;114;117</item>
+        <item>¿Cuántos capítulos tiene el manga de blue lock?;160;120;*190;220</item>
+        <item>¿Qué selección tiene más mundiales?;Argentina;Francia;Alemania;*Brasil</item>
+        <item>¿Cómo se llama la mascota del mundial de 1992?;Fresita;Limonchelo;*Naranjito;Perito</item>
+
+    </array>
+</resources>
